@@ -5,12 +5,12 @@ The Virtual Neighborhood Watch is a community-driven application designed to enh
 ## User Roles
 
 ### Admin
-- Can view all incident reports and safety tips submitted by users.
+- Can view all incident reports and create safety tips.
 - Has the ability to delete any reports or tips as needed.
 
 ### User
-- Can report incidents and submit safety tips.
-- Can only view and manage their own reports and tips.
+- Can report incidents and view all safety tips.
+- Can only view and manage their own reports.
 
 ## Features
 
@@ -26,13 +26,13 @@ The Virtual Neighborhood Watch is a community-driven application designed to enh
 
 ### Safety Tips Sharing (CRUD)
 
-- **Create**: Users can submit safety tips that may help others in the community.
+- **Create**: admins can submit safety tips that may help others in the community.
   
-- **Read**: Users can browse all of their own submitted safety tips. Admins can view all tips submitted by users.
+- **Read**: admins can browse all of their own submitted safety tips. users can view all tips submitted by admins.
   
-- **Update**: Users can edit their submitted tips to keep information relevant and accurate.
+- **Update**: admins can edit their submitted tips to keep information relevant and accurate.
   
-- **Delete**: Users can remove their tips if they no longer apply. Admins have the ability to delete any tip.
+- **Delete**: admins can remove their tips.
 
 
 ## Group Members
